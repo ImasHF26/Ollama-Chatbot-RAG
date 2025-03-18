@@ -1,0 +1,18 @@
+# Bibliothèques principales
+requests>=2.31.0          # Pour les requêtes HTTP vers l'API Ollama
+colorama>=0.4.6           # Pour l'affichage coloré dans le terminal
+
+# Bibliothèques optionnelles (si vous utilisez des fonctionnalités supplémentaires)
+numpy>=1.26.0             # Pour les calculs numériques (optionnel)
+pandas>=2.1.0             # Pour la manipulation de données (optionnel)
+transformers>=4.35.0      # Si vous utilisez Hugging Face Transformers (optionnel)
+torch>=2.1.0              # Si vous utilisez PyTorch (optionnel)
+scikit-learn>=1.3.0       # Pour la similarité cosinus
+sentence-transformers>=2.2.2 # embedding
+
+
+faiss-cpu>=1.7.4
+PyPDF2>=3.0.0
+python-docx>=0.8.11
+
+tqdm>=4.66.0

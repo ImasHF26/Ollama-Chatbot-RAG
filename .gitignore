@@ -1,0 +1,21 @@
+ 
+# Fichiers et dossiers Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Environnements virtuels
+venv/
+.env
+
+# Logs et fichiers temporaires
+*.log
+*.tmp
+
+# Fichiers de configuration et secrets
+config.json
+.env
+
+# Spécifique à Windows
+Thumbs.db
+.DS_Store
