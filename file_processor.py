@@ -5,7 +5,7 @@ import PyPDF2
 from docx import Document
 
 class FileProcessor:
-    def __init__(self, chunk_size=512, chunk_overlap=64):
+    def __init__(self, chunk_size=1024, chunk_overlap=128):
         self.chunk_size = chunk_size
         self.chunk_overlap = chunk_overlap
         self.processed_hashes = set()  # Pour stocker les hashes des fichiers déjà traités

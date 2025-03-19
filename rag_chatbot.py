@@ -80,7 +80,7 @@ class RAGChatbot:
                 print(f"Chunk {i} : {chunk}")
 
             self.save_state()
-            print(f"Fichier {file_path} indexé avec succès. {len(chunks)} chunks ajoutés.")
+            #print(f"Fichier {file_path} indexé avec succès. {len(chunks)} chunks ajoutés.")
         except Exception as e:
             print(f"Erreur lors de l'indexation du fichier {file_path} : {str(e)}")
 
